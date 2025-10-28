@@ -6,3 +6,14 @@ mv worldbanc-main worldbanc
 sudo chown -R $(whoami) worldbanc
 sudo chmod -R 755 worldbanc
 ```
+
+``` sh
+# to find word "hello" in file
+grep "hello" filename.txt
+```
+
+
+``` sh
+# to find files named "*.log" in some directory
+find logs/ -name "*.log"
+```
